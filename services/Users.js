@@ -23,7 +23,6 @@ export async function fetchUsers(id) {
         // const serverResponsePromise = await response.text();
         // const serverResponseData = JSON.parse(serverResponsePromise);
 
-        console.error(responseText)
     }
     return response.json();
 }
