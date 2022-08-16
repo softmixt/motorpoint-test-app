@@ -1,8 +1,8 @@
 import PageWrapper from "../layouts/PageWrapper";
 
-export default function Home() {
+export const About = (props) => {
     return (
-        <PageWrapper title="Home">
+        <PageWrapper title="About Us">
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec malesuada lorem. Ut accumsan volutpat
                 maximus. Nulla vel vestibulum libero. Curabitur pulvinar risus ut feugiat congue. Mauris luctus, purus
@@ -419,5 +419,7 @@ export default function Home() {
                 mauris vitae arcu malesuada, nec vulputate elit consequat.
             </p>
         </PageWrapper>
-    )
-}
+    );
+};
+
+export default About;
